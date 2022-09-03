@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "jest": "^29.0.1"
+  },
+  "name": "hayya",
+  "description": "A fast config HTTP requests testing tool for busy people",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burawi/hayya.git"
+  },
+  "keywords": [
+    "HTTP-client",
+    "tests",
+    "quick"
+  ],
+  "author": "Burawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burawi/hayya/issues"
+  },
+  "homepage": "https://github.com/burawi/hayya#readme"
+}
