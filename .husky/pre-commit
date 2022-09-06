@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx git-branch-is -r "^(feat|fix|chore)/"
+
+npm run test:unit 
+npm run test:acceptance 
+
+npx lint-staged -q

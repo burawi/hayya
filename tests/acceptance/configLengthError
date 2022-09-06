@@ -1,0 +1,9 @@
+$ dog-api.kinduff.com/api
+
+/facts
+< { facts: [*], success: !+ }
+
+/facts?number=6
+< { facts: [*]5, success: !+ }
+
+/randomroute 404
