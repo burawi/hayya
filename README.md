@@ -2,19 +2,18 @@
 A fast config HTTP requests testing tool for busy people 
 
 ## For the really busy ones (30 sec running example)
-### Installation
+**Installation**
 ```
 npm i -g hayya
 ```
-
-### `hayyarc`
+Create a **hayyarc** file with the following content:
 ```
 $ :3000
 /dog
 < ok
 ```
+**Run**
 
-### Run
 If you don't have time to run a server listening on `localhost:3000`, run this command in a separate terminal to simulate the server and don't close it:
 ```
 node -e "require('http').createServer((req, res) => { res.end('ok') }).listen(3000)"
@@ -28,7 +27,17 @@ And you should see this:
 
 ![image](https://user-images.githubusercontent.com/10698248/188680609-5309e482-2e28-4c51-a557-2e98de2ea382.png)
 
-So you loved it? You can continue reading the documentation below, I promise I will try to make it as brief as possible.
+So you loved it? 💙❓ You can continue reading the documentation below, I promise I will try to make it as brief as possible.
+
+* [Docs](#docs)
+    * [Prefix](#prefix)
+    * [Route](#route)
+    * [Request body](#request-body)
+    * [Request headers](#request-headers)
+    * [Response headers](#response-headers)
+    * [Response body](#response-body)
+    * [Example](#a-file-example)
+* [How to contribute?](CONTRIBUTING.md)
 
 ## Docs
 ### Prefix
