@@ -1,4 +1,6 @@
-# hayya
+![hayya](https://user-images.githubusercontent.com/10698248/188729999-c4ee0fab-d9e1-4263-8980-4b2ecf355e72.png)
+
+# Hayya
 A fast config HTTP requests testing tool for busy people 
 
 ## For the really busy ones (30 sec running example)
