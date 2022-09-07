@@ -151,7 +151,7 @@ Same as above but with `<h` instead of `>h`
 ```
 <h x-custom-header awesome header value
 <h ct html
-====> Will expect response headers to be { "x-custom-header": "awesome header value", "content-type": "application/json" }
+====> Will expect response headers to be { "x-custom-header": "awesome header value", "content-type": "text/html" }
 ```
 ### Response body
 ```
