@@ -1,7 +1,9 @@
 ![hayya](https://user-images.githubusercontent.com/10698248/188729999-c4ee0fab-d9e1-4263-8980-4b2ecf355e72.png)
 
-# Hayya
+# Hayya [![NPM Version](https://img.shields.io/npm/v/hayya)](https://www.npmjs.com/package/hayya) [![Language](https://img.shields.io/github/languages/top/burawi/hayya)]() [![contribution guide](https://img.shields.io/badge/contribution-guide-brightgreen.svg?style=flat)](CONTRIBUTING.md) [![Downloads](https://img.shields.io/npm/dm/hayya?color=pink)](https://www.npmjs.com/package/hayya) [![Code size](https://img.shields.io/github/languages/code-size/burawi/hayya?color=brightgreen)]() [![License](https://img.shields.io/github/license/burawi/hayya?color=blue)](CONTRIBUTING.md) [![Last commit](https://img.shields.io/github/last-commit/burawi/hayya)]()
+
 A fast config HTTP requests testing tool for busy people 
+
 
 ## For the really busy ones (30 sec running example)
 **Installation**
