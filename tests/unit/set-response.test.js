@@ -9,7 +9,7 @@ it('Should throw error body already set', () => {
 it('Should set a string body', () => {
   const result = { tests: [{ response: {} }] }
   setResponse('Success', result)
-  expect(result.tests[0].response.headers['content-type']).toEqual('text/plain')
+  expect(result.tests[0].response.headers['content-type']).toEqual('(text/plain|undefined)')
   expect(result.tests[0].response.body).toEqual({
     type: ['required', 'enum'],
     values: ['Success']

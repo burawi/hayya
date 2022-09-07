@@ -16,7 +16,7 @@ it('Should throw error body already set', () => {
 it('Should set a string body', () => {
   const result = { tests: [{ request: {} }] }
   setRequest('Success', result)
-  expect(result.tests[0].request.headers['content-type']).toEqual('text/plain')
+  expect(result.tests[0].request.headers['content-type']).toEqual('(text/plain|undefined)')
   expect(result.tests[0].request.body).toEqual('Success')
 })
 it('Should set a JSON body', () => {
