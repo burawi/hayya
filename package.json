@@ -18,7 +18,7 @@
   },
   "name": "hayya",
   "description": "A fast config HTTP requests testing tool for busy people",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "directories": {
     "lib": "lib"
   },
