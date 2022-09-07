@@ -6,7 +6,7 @@
 A fast config HTTP requests testing tool for busy people 
 
 
-## For the really busy ones (30 sec running example)
+## For the really busy ones (⏱️30 sec running example)
 **Installation**
 ```
 npm i -g hayya
@@ -124,6 +124,7 @@ POST /create 401
 |  |  |   html is a shorthand for text/html
 |  |  |   text is for for text/plain
 |  |  |   any other value will be kept as it is
+|  |  |   Note: Values are interpreted as regex, so a ^application/ would be a valid value
 |  |
 |  |-> The header key
 |  |   ct is a shorthand for content-type, other shorthands:
