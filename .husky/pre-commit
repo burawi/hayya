@@ -5,5 +5,7 @@ npx git-branch-is -r "^(feat|fix|chore)/"
 
 npm run test:unit 
 npm run test:acceptance 
+npx jest-coverage-badges
+git add coverage/badge-lines.svg
 
 npx lint-staged -q
