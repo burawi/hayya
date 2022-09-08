@@ -54,6 +54,11 @@
   "jest": {
     "coverageReporters": [
       "json-summary"
-    ]
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 80
+      }
+    }
   }
 }
